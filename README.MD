@@ -83,8 +83,8 @@ const { login_cellphone, user_cloud } = require('NeteaseCloudMusicApi')
 async function main() {
   try {
     const result = await login_cellphone({
-      phone: '手机号',
-      password: '密码'
+      phone: '15274632536',
+      password: 'mk777777'
     })
     console.log(result)
     const result2 = await user_cloud({
